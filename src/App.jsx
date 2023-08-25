@@ -14,6 +14,7 @@ const App = () => {
     // console.log(response.products);
     setitem(response.products);
     setloading(false);
+    
   };
   useEffect(() => {
     getData();
